@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="style.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img class="allmap" src="./image/지도/전체지도.png" alt="" usemap="#image-map">
+        <div class="point">
+            <img class="it" src="./image/etc/IT.png" id="modalImage1" onclick="showModal('modalImage1')" />
+            <img class="it" src="./image/etc/IT.png" id="modalImage2" onclick="showModal('modalImage2')" />
+            <img class="it" src="./image/etc/IT.png" id="modalImage3" onclick="showModal('modalImage3')" />
+            <img class="nurse" src="./image/etc/보건.png" alt="">
+            <img class="nurse" src="./image/etc/보건.png" alt="">
+            <img class="nurse" src="./image/etc/보건.png" alt="">
+            <img class="beauty" src="./image/etc/뷰티.png" alt="">
+            <img class="beauty" src="./image/etc/뷰티.png" alt="">
+            <img class="beauty" src="./image/etc/뷰티.png" alt="">
+            <img class="beauty" src="./image/etc/뷰티.png" alt="">
+        </div>
+        <map name="image-map">
+            <area alt="한별동" href="HB.html" coords="363, 129, 407, 134, 411, 138, 410, 144, 415, 154, 410, 178, 399, 192, 389, 193, 382, 185, 374, 180, 372, 166, 367, 161, 371, 140" shape="poly">
+            <area alt="고운동" href="" coords="" shape="poly">
+            <area alt="아름동" href="" coords="" shape="poly">
+            <area alt="종촌동" href="" coords="" shape="poly">
+            <area alt="다정동" href="" coords="" shape="poly">
+            <area alt="새롬동" href="" coords="" shape="poly">
+            <area alt="한솔동" href="" coords="" shape="poly">
+            <area alt="가람동" href="" coords="" shape="poly">
+            <area alt="산울동" href="" coords="" shape="poly">
+            <area alt="도담동" href="" coords="" shape="poly">
+            <area alt="어진동" href="" coords="" shape="poly">
+            <area alt="나성동" href="" coords="" shape="poly">
+            <area alt="해밀동" href="" coords="" shape="poly">
+            <area alt="누리동" href="" coords="" shape="poly">
+            <area alt="용호동" href="" coords="" shape="poly">
+            <area alt="세종동" href="" coords="" shape="poly">
+            <area alt="다솜동" href="" coords="" shape="poly">
+            <area alt="합강동" href="" coords="" shape="poly">
+            <area alt="집현동" href="" coords="" shape="poly">
+            <area alt="반곡동" href="" coords="" shape="poly">
+            <area alt="소담동" href="" coords="" shape="poly">
+            <area alt="보람동" href="" coords="" shape="poly">
+            <area alt="대평동" href="" coords="" shape="poly">
+            <area alt="장군면" href="" coords="" shape="poly">
+
+        </map>
+    </div>
+
+    <div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close" onclick="closeModal()">&times;</span>
+			<img id="modalImg" class="modal-img" src="" />
+			<div id="caption"></div>
+		</div>
+	</div>
+    
+    <fieldset class="filter">
+        <legend style="font-weight: 900;">검색필터</legend>
+        <input type="checkbox" class="checkbox-green" name="option1" value=".it">
+        <label for="option1">IT콘텐츠과</label><br>
+        <input type="checkbox" class="checkbox-blue" name="option2" value=".nurse">
+        <label for="option2">보건간호과</label><br>
+        <input type="checkbox" class="checkbox-red" name="option3" value=".beauty">
+        <label for="option3">뷰티미용과</label><br>
+        <input type="checkbox" class="checkbox-org" name="option4" value=".food">
+        <label for="option4">외식조리과</label><br>
+      </fieldset> 
+
+</body>
+</html>
