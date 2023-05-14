@@ -1,15 +1,10 @@
-function showModal(id) {
-    var modal = document.getElementById("myModal");
-    var img = document.getElementById(id);
-    var modalImg = document.getElementById("modalImg");
-    var captionText = document.getElementById("caption");
+function showModal(id) {//모달창 열기
+    var modal = document.getElementById(id);
+    var modalContent = modal.querySelector(".modal-content");
     modal.style.display = "block";
-    modalImg.src = img.src;
-    captionText.innerHTML = img.alt;
-}
-
-// 모달 창 닫기
-function closeModal() {
-    var modal = document.getElementById("myModal");
-    modal.style.display = "none";
+  }
+  
+  function closeModal(id) {//모달창 닫기
+  var modal = document.getElementById(id);
+  modal.style.display = "none";
 }

@@ -6,24 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>JYSMAP</title>
     <script src="style.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- 지도 사진, 위치좌표 출력 -->
         <img class="allmap" src="./image/지도/전체지도.png" alt="" usemap="#image-map">
         <div class="point">
-            <img class="it" src="./image/etc/IT.png" id="modalImage1" onclick="showModal('modalImage1')" />
-            <img class="it" src="./image/etc/IT.png" id="modalImage2" onclick="showModal('modalImage2')" />
-            <img class="it" src="./image/etc/IT.png" id="modalImage3" onclick="showModal('modalImage3')" />
-            <img class="nurse" src="./image/etc/보건.png" alt="">
-            <img class="nurse" src="./image/etc/보건.png" alt="">
-            <img class="nurse" src="./image/etc/보건.png" alt="">
-            <img class="beauty" src="./image/etc/뷰티.png" alt="">
-            <img class="beauty" src="./image/etc/뷰티.png" alt="">
-            <img class="beauty" src="./image/etc/뷰티.png" alt="">
-            <img class="beauty" src="./image/etc/뷰티.png" alt="">
+            <img class="it" src="./image/etc/IT.png" alt="퓨텍소프트" id="modalImage1" onclick="showModal('modal1')" />
+            <img class="it" src="./image/etc/IT.png" alt="한국정책방송원" id="modalImage2" onclick="showModal('modal2')" />
+            <img class="it" src="./image/etc/IT.png" alt="싱크온웹" id="modalImage3" onclick="showModal('modal3')" />
+            <img class="nurse" src="./image/etc/보건.png" id="modalImage3" onclick="showModal('modalImage4')" />
+            <img class="nurse" src="./image/etc/보건.png" id="modalImage3" onclick="showModal('modalImage5')" />
+            <img class="nurse" src="./image/etc/보건.png" id="modalImage3" onclick="showModal('modalImage6')" />
+            <img class="beauty" src="./image/etc/뷰티.png" id="modalImage3" onclick="showModal('modalImage7')" />
+            <img class="beauty" src="./image/etc/뷰티.png" id="modalImage3" onclick="showModal('modalImage8')" />
+            <img class="beauty" src="./image/etc/뷰티.png" id="modalImage3" onclick="showModal('modalImage9')" />
+            <img class="beauty" src="./image/etc/뷰티.png" id="modalImage3" onclick="showModal('modalImage10')" />
         </div>
+        <!--지도 동내단위 클릭-->
         <map name="image-map">
             <area alt="한별동" href="HB.html" coords="363, 129, 407, 134, 411, 138, 410, 144, 415, 154, 410, 178, 399, 192, 389, 193, 382, 185, 374, 180, 372, 166, 367, 161, 371, 140" shape="poly">
             <area alt="고운동" href="" coords="" shape="poly">
@@ -52,16 +53,45 @@
 
         </map>
     </div>
+<!--눌렀을때 모달창-->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal1')">&times;</span>
+          <h2>퓨텍소프트</h2>
+          <p>주소 : 세종 장군면 안동네길 25</p>
+          <p>연락처 : 044-868-9205</p>
+          <a href="https://map.naver.com/v5/entry/place/37699887?c=17,0,0,0,dh&isCorrectAnswer=true">
+            <button>길찾기</button>
+          </a>
+        </div>
+      </div>
 
-    <div id="myModal" class="modal">
-		<div class="modal-content">
-			<span class="close" onclick="closeModal()">&times;</span>
-			<img id="modalImg" class="modal-img" src="" />
-			<div id="caption"></div>
-		</div>
-	</div>
-    
-    <fieldset class="filter">
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal2')">&times;</span>
+          <h2>한국정책방송원</h2>
+          <p>주소 : 세종 장군면 안동네길 25</p>
+          <p>연락처 : 044-868-9205</p>
+          <a href="https://map.naver.com/v5/entry/place/37699887?c=17,0,0,0,dh&isCorrectAnswer=true">
+            <button>길찾기</button>
+          </a>
+        </div>
+      </div>
+      
+
+      <div id="modal3" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modal3')">&times;</span>
+          <h2>싱크온웹</h2>
+          <p>주소 : 세종특별자치시 집현중앙7로 6(집현동), 세종 대명벨리온 B1111호</p>
+          <p>연락처 : 044-589-3589</p>
+          <p> 휴무일: 공휴일</p>
+          <a href="https://map.naver.com/v5/search/%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%A7%91%ED%98%84%EC%A4%91%EC%95%997%EB%A1%9C%206%20%EC%84%B8%EC%A2%85%20%EB%8C%80%EB%AA%85%EB%B2%A8%EB%A6%AC%EC%98%A8%20B1112%ED%98%B8/address/14174360.233089205,4369448.24433605,%EC%84%B8%EC%A2%85%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C%20%EC%A7%91%ED%98%84%EC%A4%91%EC%95%997%EB%A1%9C%206,new?c=17,0,0,0,dh&isCorrectAnswer=true">
+            <button>길찾기</button>
+          </a>
+        </div>
+      </div>
+    <fieldset class="filter"><!--필터-->
         <legend style="font-weight: 900;">검색필터</legend>
         <input type="checkbox" class="checkbox-green" name="option1" value=".it">
         <label for="option1">IT콘텐츠과</label><br>
