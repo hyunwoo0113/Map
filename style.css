@@ -16,7 +16,7 @@
   object-fit: cover;
 }
 
-.point img:nth-child(1){
+#modalImage1{
   position: absolute;
   top: 280px;
   left: 63%;
@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 
-.point img:nth-child(2){
+#modalImage2{
   position: absolute;
   top: 360px;
   left: 101%;
@@ -34,7 +34,7 @@
   object-fit: cover;
 }
 
-.point img:nth-child(3){
+#modalImage3{
   position: absolute;
   top: 260px;
   left: 141%;
@@ -43,7 +43,7 @@
   object-fit: cover;
 }
 
-.point img:nth-child(4){
+#modalImage4{
   position: absolute;
   top: 388px;
   left: 99%;
@@ -52,24 +52,24 @@
   object-fit: cover;
 }
 
-.point img:nth-child(5){
+#modalImage5{
   position: absolute;
-  top: 322px;
+  top: 335px;
   left: 95.5%;
   width: 4%;
   height: auto;
   object-fit: cover;
 }
-.point img:nth-child(6){
+#modalImage6{
   position: absolute;
-  top: 340px;
+  top: 350px;
   left: 96%;
   width: 4%;
   height: auto;
   object-fit: cover;
 }
 
-.point img:nth-child(7){
+#modalImage7{
   position: absolute;
   top: 247px;
   left: 81.5%;
@@ -78,7 +78,7 @@
   object-fit: cover;
 }
 
-.point img:nth-child(8){
+#modalImage8{
   position: absolute;
   top: 282px;
   left: 88%;
@@ -87,16 +87,16 @@
   object-fit: cover;
 }
 
-.point img:nth-child(9){
+#modalImage9{
   position: absolute;
-  top: 350px;
-  left: 97.5%;
+  top: 355px;
+  left: 97.6%;
   width: 4%;
   height: auto;
   object-fit: cover;
 }
 
-.point img:nth-child(10){
+#modalImage10{
   position: absolute;
   top: 355px;
   left: 121%;
@@ -104,6 +104,43 @@
   height: auto;
   object-fit: cover;
 }
+
+#modalImage11{
+  position: absolute;
+  top: 282px;
+  left: 90%;
+  width: 4%;
+  height: auto;
+  object-fit: cover;
+}
+
+#modalImage12{
+  position: absolute;
+  top: 247px;
+  left: 95%;
+  width: 4%;
+  height: auto;
+  object-fit: cover;
+}
+
+#modalImage13{
+  position: absolute;
+  top: 460px;
+  left: 103%;
+  width: 4%;
+  height: auto;
+  object-fit: cover;
+}
+
+#modalImage14{
+  position: absolute;
+  top: 310px;
+  left: 98%;
+  width: 4%;
+  height: auto;
+  object-fit: cover;
+}
+
 
 .aera:hover {
   transform: scale(1.5); /* 이미지 크기를 1.2배로 확대 */
