@@ -16,216 +16,265 @@
   object-fit: cover;
 }
 
+.opimg {
+  width: 400px;
+  height: auto;
+  margin-right: 10px; /* 이미지와 텍스트 사이 간격 조정을 위한 여백 설정 */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 #modalImage1{
   position: absolute;
   top: 280px;
   left: 63%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage2{
   position: absolute;
-  top: 360px;
+  top: 375px;
   left: 101%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage3{
   position: absolute;
   top: 260px;
   left: 141%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage4{
   position: absolute;
-  top: 388px;
+  top: 398px;
   left: 99%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage5{
   position: absolute;
-  top: 335px;
+  top: 367px;
   left: 95.5%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
 #modalImage6{
   position: absolute;
-  top: 350px;
+  top: 379px;
   left: 96%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage7{
   position: absolute;
   top: 247px;
   left: 81.5%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage8{
   position: absolute;
   top: 282px;
-  left: 88%;
-  width: 4%;
+  left: 87%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage9{
   position: absolute;
-  top: 355px;
+  top: 369px;
   left: 97.6%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage10{
   position: absolute;
   top: 355px;
   left: 121%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage11{
   position: absolute;
   top: 282px;
-  left: 90%;
-  width: 4%;
+  left: 89%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage12{
   position: absolute;
-  top: 247px;
-  left: 95%;
-  width: 4%;
+  top: 320px;
+  left: 97%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage13{
   position: absolute;
   top: 460px;
   left: 103%;
-  width: 4%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
 #modalImage14{
   position: absolute;
-  top: 310px;
-  left: 98%;
-  width: 4%;
+  top: 305px;
+  left: 96%;
+  width: 3.5%;
   height: auto;
   object-fit: cover;
 }
-
-
-.aera:hover {
-  transform: scale(1.5); /* 이미지 크기를 1.2배로 확대 */
+#modalImage15{
+  position: absolute;
+  top: 305px;
+  left: 98%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage16{
+  position: absolute;
+  top: 305px;
+  left: 101%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage17{
+  position: absolute;
+  top: 400px;
+  left: 113%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage18{
+  position: absolute;
+  top: 278px;
+  left: 90.5%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage19{
+  position: absolute;
+  top: 319px;
+  left: 95.5%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage20{
+  position: absolute;
+  top: 325px;
+  left: 100%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
+}
+#modalImage21{
+  position: absolute;
+  top: 330px;
+  left: 100%;
+  width: 3.5%;
+  height: auto;
+  object-fit: cover;
 }
 
   .filter{  
     position: absolute;
     top: 13px;
     right: 20px;
-    width: 150px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     padding: 20px;
     border-radius: 20px;
   }
 
- 
-
-  .checkbox-red {
+  .checkbox-it {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     border-radius: 4px;
-    border: 2px solid red;
+    border: 2px solid #81EA68;
     vertical-align: middle; /* 수직 정렬 속성 추가 */
     margin: 5; /* margin 초기화 */
     padding: 0; /* padding 초기화 */
   }
   
-  .checkbox-red:checked {
-    background-color: red;
+  .checkbox-it:checked {
+    background-color: #81EA68;
   }
   
-  .checkbox-green {
+  .checkbox-nurse {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     border-radius: 4px;
-    border: 2px solid green;
+    border: 2px solid #78C8FF;
     vertical-align: middle; /* 수직 정렬 속성 추가 */
     margin: 5; /* margin 초기화 */
     padding: 0; /* padding 초기화 */
   }
   
-  .checkbox-green:checked {
-    background-color: green;
+  .checkbox-nurse:checked {
+    background-color: #78C8FF;
   }
   
-  .checkbox-blue {
+  .checkbox-beauty {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     border-radius: 4px;
-    border: 2px solid blue;
+    border: 2px solid #C78FF7;
     vertical-align: middle; /* 수직 정렬 속성 추가 */
     margin: 5; /* margin 초기화 */
     padding: 0; /* padding 초기화 */
   }
   
-  .checkbox-blue:checked {
-    background-color: blue;
+  .checkbox-beauty:checked {
+    background-color: #C78FF7;
   }
 
-  .checkbox-org {
+  .checkbox-cook {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
     border-radius: 4px;
-    border: 2px solid orange;
+    border: 2px solid #FFB600;
     vertical-align: middle; /* 수직 정렬 속성 추가 */
     margin: 5; /* margin 초기화 */
     padding: 0; /* padding 초기화 */
   }
   
-  .checkbox-org:checked {
-    background-color: orange;
+  .checkbox-cook:checked {
+    background-color: #FFB600;
   }
 
   .modal {
@@ -237,10 +286,12 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   .modal-content {
+    display: flex;
+    align-items: flex-start;
     margin: 10% auto;
     width: 80%;
     max-width: 800px;
@@ -263,3 +314,4 @@
     font-weight: bold;
     cursor: pointer;
   }
+
