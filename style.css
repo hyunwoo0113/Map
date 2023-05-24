@@ -298,13 +298,50 @@
     background-color: rgba(0, 0, 0, 0.6);
   }
   
-  .modal-content {
+  .modal-contentIT {
     display: flex;
     align-items: flex-start;
     margin: 10% auto;
     width: 80%;
     max-width: 800px;
     background-color: #fff;
+    border: 5px solid #81EA68;
+    padding: 20px;
+    position: relative;
+  }
+
+  .modal-contentnurse {
+    display: flex;
+    align-items: flex-start;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 5px solid #78C8FF;
+    padding: 20px;
+    position: relative;
+  }
+
+  .modal-contentbeauty {
+    display: flex;
+    align-items: flex-start;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 5px solid #C78FF7;
+    padding: 20px;
+    position: relative;
+  }
+
+  .modal-contentcook {
+    display: flex;
+    align-items: flex-start;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border: 5px solid #FFB600;
     padding: 20px;
     position: relative;
   }
