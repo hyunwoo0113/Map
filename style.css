@@ -1,9 +1,18 @@
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/map/wj_font/완주대둔산/완주대둔산체 Bold.ttf") format('truetype');
+}
+
+
 .title_{
   position: relative;
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 45px;
+  font-family: "MyCustomFont";
+  font-style: normal;
+  font-size: 55px;
+  margin: 50px;
 }
 
 .container {
@@ -207,10 +216,10 @@
 
   .filter{  
     position: relative;
-    top: 13px;
-    right: 20px;
+    top: 10px;
+    left: 1100px;
     width: 130px;
-    height: 130px;
+    height: 110px;
     background-color: #fff;
     border: 2px solid #ccc;
     padding: 20px;
@@ -308,6 +317,15 @@
     border: 5px solid #81EA68;
     padding: 20px;
     position: relative;
+    font-family: "MyCustomFont";
+  }
+
+  .modal-contentIT h2{
+    color: #81EA68;
+    font-size: 250%;
+  }
+  .modal-contentIT p{
+    font-size: 150%;
   }
 
   .modal-contentnurse {
@@ -320,6 +338,15 @@
     border: 5px solid #78C8FF;
     padding: 20px;
     position: relative;
+    font-family: "MyCustomFont";
+  }
+
+  .modal-contentnurse h2{
+    color: #78C8FF;
+    font-size: 250%;
+  }
+  .modal-contentnurse p{
+    font-size: 150%;
   }
 
   .modal-contentbeauty {
@@ -332,6 +359,14 @@
     border: 5px solid #C78FF7;
     padding: 20px;
     position: relative;
+    font-family: "MyCustomFont";
+  }
+  .modal-contentbeauty h2{
+    color: #C78FF7;
+    font-size: 250%;
+  }
+  .modal-contentbeauty p{
+    font-size: 150%;
   }
 
   .modal-contentcook {
@@ -344,10 +379,18 @@
     border: 5px solid #FFB600;
     padding: 20px;
     position: relative;
+    font-family: "MyCustomFont";
+  }
+  .modal-contentcook h2{
+    color: #FFB600;
+    font-size: 250%;
+  }
+  .modal-contentcook p{
+    font-size: 150%;
   }
   
   .modal-img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
   
