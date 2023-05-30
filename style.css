@@ -12,7 +12,11 @@
   font-family: "MyCustomFont";
   font-style: normal;
   font-size: 55px;
-  margin: 50px;
+  top: 0;
+  margin: 3%;
+  padding: 1.5%;
+  line-height: 1;
+  border-bottom: 2px  solid gray;
 }
 
 .container {
@@ -219,7 +223,7 @@
     top: 10px;
     left: 1100px;
     width: 130px;
-    height: 110px;
+    height: 100px;
     background-color: #fff;
     border: 2px solid #ccc;
     padding: 20px;
